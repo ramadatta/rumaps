@@ -1,0 +1,5 @@
+pytest
+scanpy
+datamapplot
+matplotlib
+numpy

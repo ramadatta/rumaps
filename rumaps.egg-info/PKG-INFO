@@ -1,6 +1,20 @@
-<<<<<<< HEAD
-# RUMAPS
-=======
+Metadata-Version: 2.1
+Name: rumaps
+Version: 0.1.1
+Summary: Refined UMAPS (RUMAPS) is a Python package crafted for generating polished UMAP visualizations, offering streamlined labeling and interactive exploration specifically for scanpy adata object.
+Home-page: https://github.com/ramadatta/rumaps
+Author: Sai Rama Sridatta Prakki
+Author-email: ramadatta.88@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: scanpy
+Requires-Dist: datamapplot
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+
 # RUMAPS
 
 RUMAPS is a Python package designed to create refined UMAP visualizations with clean labeling and interactive exploration. Specifically, this package is created to fit in single cell analysis packages (scanpy and anndata).  RUMAPS provides intuitive tools to enhance your data visualization workflow.
@@ -89,4 +103,3 @@ Special thanks to the open-source community and contributors who made this packa
 ## Contact
 
 For any questions or issues, please contact us at [srsridatta.prakki@helmholtz-munich.de].
->>>>>>> 2d3f073 (Initial commit of RUMAPS package)

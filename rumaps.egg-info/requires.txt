@@ -1,0 +1,4 @@
+scanpy
+datamapplot
+matplotlib
+numpy
