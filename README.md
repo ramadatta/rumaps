@@ -23,11 +23,11 @@ RUMAPS is a Python package designed to create refined UMAP visualizations with c
 
 ## Installation
 
-Install RUMAPS via pip:
+<!-- Install RUMAPS via pip: -->
 
-```bash
-pip install rumaps
-```
+<!-- ```bash -->
+<!-- pip install -i https://test.pypi.org/simple/ rumaps==0.1.2 -->
+<!-- ``` -->
 
 Install RUMAPS from Source Code:
 ```bash
