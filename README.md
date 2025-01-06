@@ -82,7 +82,8 @@ RUMAPS is licensed under the MIT License. See the [LICENSE](LICENSE) file for mo
 
 ## Acknowledgments
 
-RUMAPS was developed using the datamapplot library. Special thanks to the team behind DataMapPlot for their amazing work.
+- RUMAPS was developed using the datamapplot library. Special thanks to the team behind DataMapPlot for their amazing work.
+- Publicly available [Tabula Muris h5ad](https://figshare.com/articles/dataset/Tabula_Muris_Scanpy/13363628?file=25753577) file was used to demonstration purposes.
 
 ---
 
