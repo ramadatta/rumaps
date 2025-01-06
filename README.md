@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-# RUMAPS
-=======
+
 # RUMAPS
 
 RUMAPS is a Python package designed to create refined UMAP visualizations with clean labeling and interactive exploration. Specifically, this package is created to fit in single cell analysis packages (scanpy and anndata).  RUMAPS provides intuitive tools to enhance your data visualization workflow.
@@ -50,6 +48,9 @@ RUMAPS requires the following Python packages:
 - `matplotlib`
 - `datamapplot`
 - `scanpy`
+- `seaborn`
+- `Pillow>=9.0.0`
+
 
 Install these dependencies using:
 
