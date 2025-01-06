@@ -3,6 +3,8 @@
 
 RUMAPS is a Python package designed to create refined UMAP visualizations with clean labeling and interactive exploration. Specifically, this package is created to fit in single cell analysis packages (scanpy and anndata).  RUMAPS provides intuitive tools to enhance your data visualization workflow.
 
+![image](images/interactive.gif)
+
 ---
 
 ## Key Features
