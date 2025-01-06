@@ -23,32 +23,23 @@ Install RUMAPS via pip:
 pip install rumaps
 ```
 
+Install RUMAPS from Source Code:
+```bash
+git clone https://github.com/ramadatta/rumaps.git
+cd rumaps
+pip install -e .
+```
+
+
 ---
 
 ## Usage
-Please check detailed documentation: 
 
+Documentation
+For detailed usage examples, please check the tutorial notebook:
 
-```bash
-rumaps.visualization.umapviz(
-    adata=adata,
-    labels_key="annotation_level5",
-    title="UMAP with Highlighted Clusters",
-    highlight_labels=["cluster1", "cluster2"], 
-    highlight_label_keywords={"fontsize": 20, "fontweight": "bold", "bbox": {"boxstyle": "round", "pad": 1}}
-)
-```
+[RUMAPS Tutorial Notebook](https://colab.research.google.com/drive/18SynVkqi3sw7ZSXyTUu_PIarvZr-mlQV?usp=sharing)
 
-```bash
-rumaps.interactive.interactive_umap(
-    adata=adata,
-    labels_key="annotation_level5",
-    label_layers=["annotation_level2"],  # Pass multiple layers as a list
-    title="Interactive UMAP with Hover Info",
-    hover_columns=["sample_batch", "donor_nr", "tissue", "pct_counts_mt", "leiden_cluster"],
-    save_path="interactive_umap_hover.html",
-)
-```
 
 ---
 
@@ -82,11 +73,10 @@ RUMAPS is licensed under the MIT License. See the [LICENSE](LICENSE) file for mo
 
 ## Acknowledgments
 
-Special thanks to the open-source community and contributors who made this package possible.
+RUMAPS was developed using the datamapplot library. Special thanks to the team behind DataMapPlot for their amazing work.
 
 ---
 
 ## Contact
 
 For any questions or issues, please contact us at [srsridatta.prakki@helmholtz-munich.de].
->>>>>>> 2d3f073 (Initial commit of RUMAPS package)
