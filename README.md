@@ -35,6 +35,10 @@ git clone https://github.com/ramadatta/rumaps.git
 cd rumaps
 pip install -e .
 ```
+Note: Some functionalities are not available in pip version package of ```datamapplot```. So, one may need to install from the main branch on github to have ```rumaps``` working.
+```
+pip install git+https://github.com/TutteInstitute/datamapplot.git
+```
 
 
 ---
