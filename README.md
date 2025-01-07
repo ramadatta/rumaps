@@ -29,15 +29,29 @@ RUMAPS is a Python package designed to create refined UMAP visualizations with c
 <!-- pip install -i https://test.pypi.org/simple/ rumaps==0.1.2 -->
 <!-- ``` -->
 
+Install RUMAPS in a conda environment (currently preferred way):
+```
+conda create -n rumaps
+conda activate rumaps
+pip install "matplotlib>=3.8"
+pip install datashader
+pip install "colorspacious>=1.1"
+pip install "scikit-image>=0.22"
+pip install dask
+python -m pip install "dask[dataframe]" --upgrade
+pip install git+https://github.com/TutteInstitute/datamapplot.git
+```
+
+Note: Some functionalities are not available in pip version package of ```datamapplot```. So, one may need to install from the main branch on github to have ```rumaps``` working.
+```
+pip install git+https://github.com/TutteInstitute/datamapplot.git
+```
+
 Install RUMAPS from Source Code:
 ```bash
 git clone https://github.com/ramadatta/rumaps.git
 cd rumaps
 pip install -e .
-```
-Note: Some functionalities are not available in pip version package of ```datamapplot```. So, one may need to install from the main branch on github to have ```rumaps``` working.
-```
-pip install git+https://github.com/TutteInstitute/datamapplot.git
 ```
 
 
