@@ -29,7 +29,12 @@ RUMAPS is a Python package designed to create refined UMAP visualizations with c
 <!-- pip install -i https://test.pypi.org/simple/ rumaps==0.1.2 -->
 <!-- ``` -->
 
-Install RUMAPS in a conda environment (currently preferred way):
+Install RUMAPS directly with pip
+```
+pip install git+https://github.com/ramadatta/rumaps.git
+```
+
+Install RUMAPS in a conda environment:
 ```
 conda create -n rumaps
 conda activate rumaps
